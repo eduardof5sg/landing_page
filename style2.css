@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.fondo {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./fondo3.jpg);
+    height: auto;
+    font-family: 'Montserrat'; 
+    width: auto;
+}
+
+.logo img {
+    width: 130px;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    }
+
+ .navlinks ul {
+    display: flex;
+
+}
+.navbar a {
+    color:#fff;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: orangered;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    margin-top: 100px;
+    color: #fff;
+    
+}
+
+#gracias {
+        margin-bottom: 60px;
+        font-size: 70px;
+        background-color: rgba(248, 117, 10, 0.671);
+        width: 400px;
+        text-align: center;
+}
+
+
+#texto1{
+    font-size: 20px;
+    text-align: center;
+    width: 600px;
+    
+}
+
+button {
+    padding: 0.9em 2em;
+    border: 4px solid #fa725a;
+    background-color: transparent;
+    color: #fa725a;
+    font-weight: bolder;
+    font-size: 16px;   
+    margin-top: 30px;
+   
+   }
+
+button:hover {
+    transform: scale(1.2) rotate(10deg);
+    background-color: #fa725a;
+    color: white;
+   }
+
+.footercontainer {
+    display: flex;
+    background-color: rgba(124, 86, 73, 0.137);
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 190px;
+    
+}
+.footericon img{
+    height: 30px;
+         
+
+}
+
+#eduardo {
+   color :#fff;
+}
