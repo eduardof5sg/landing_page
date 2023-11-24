@@ -72,7 +72,7 @@ button {
     padding: 0.9em 2em;
     border: 4px solid #fa725a;
     background-color: transparent;
-    color: #fa725a;
+    color: #f78214;
     font-weight: bolder;
     font-size: 16px;   
     margin-top: 30px;
@@ -84,6 +84,36 @@ button:hover {
     background-color: #fa725a;
     color: white;
    }
+
+.texto a:visited {
+    color: #fff;
+}
+
+.puntua {
+    margin-left: 31rem;
+    font-weight: bold;
+    color: white;
+}
+
+/* Estilos para las estrellas */
+.stars {
+    font-size: 2rem;
+    margin-left: 37rem;
+    align-items: center;
+    margin-top: 25px;
+  }
+  
+  .star {
+    cursor: pointer;
+    color: rgb(250, 248, 248);
+    
+  }
+  
+  .star:hover,
+  .star.selected {
+    color: rgb(233, 68, 3);
+  }
+  
 
 .footercontainer {
     display: flex;

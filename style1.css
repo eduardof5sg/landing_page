@@ -42,7 +42,7 @@ nav{
     width: 400px;
     padding: 30px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: -20px;
     border-radius: 4px;
     color: #ffffff;
 
@@ -85,6 +85,7 @@ nav{
 .botons {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 
 }
 button {
@@ -95,12 +96,60 @@ button {
     color: #fa725a;
     font-weight: bolder;
     font-size: 16px;   
-
-    
    }
    
-   button:hover {
+.buton {
+
+    padding: 0.9em 2em;
+    border: 4px solid #fa725a;
+    transition: ease-in-out 0.3s;
+    background-color: transparent;
+    color: #fa725a;
+    font-weight: bolder;
+    font-size: 16px;  
+}
+
+.buton:hover {
+
     transform: scale(1.2) rotate(10deg);
     background-color: #fa725a;
     color: white;
+}
+
+   button:hover {
+    transform: scale(1.2) rotate(10deg);
+    background-color: #fa725a;
+    
    }
+
+   label {
+    display: block;
+    margin-bottom: 5px;
+   }
+
+   .eye {
+    position: absolute;
+    top: 9px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  .eye:before {
+    content: "\f070";
+    font-family: FontAwesome;
+  }
+
+  .warnings {
+
+    width: 200px;
+    text-align: center;
+    color: rgb(255, 12, 12);
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'calibri';
+}
+
+.condiciones {
+    margin-top: 15px;
+}

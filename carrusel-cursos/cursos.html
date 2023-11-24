@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrusel con Slick</title>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+    <!-- Tu archivo CSS personalizado -->
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
+    <script src="https://kit.fontawesome.com/8f8ce55613.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="body1">
+    <div class="menu">
+      <nav class="barnav"> 
+          <a href="https://factoriaf5.org/" class="logo"><img src="../f5.png"></a>
+          <div class="navlinks">
+              <ul class="navbar">
+                <li><a href="../landing.html">Inicio</a></li>
+                <li><a href="https://factoriaf5.org/somos/#asociacion">Quienes somos</a></li>
+                <li><a href="https://factoriaf5.org/contacto/">Contacto</a></li>
+              </ul> 
+              <button class="switch" id="switch">
+                <span><i class="fa-solid fa-sun"></i></span>
+                <span><i class="fa-solid fa-moon"></i></span>
+              </button>
+          </div> 
+      </nav>           
+  </div>
+    <div class="carousel-container">
+      <div class="carousel-slide">
+        <img src="./imagenes-carrusel/web.jpeg" alt="Imagen 1" />
+        <div class="carousel-content">
+          <h2>DesarrolloWeb Fullstack</h2>
+          <div class="linea"></div>
+          <p>
+            ¿Quieres aprender a crear tu propia página web de cursos desde cero?
+            ¡Este curso te brinda todas las herramientas necesarias para
+            convertirte en un desarrollador versátil y crear una plataforma de
+            educación en línea impactante! A lo largo de este curso, te
+            sumergirás en un viaje completo a través de las tecnologías más
+            modernas y fundamentales en el desarrollo web. Desde el diseño del
+            frontend hasta el manejo del backend, adquirirás conocimientos
+            prácticos para construir una página web de cursos interactiva,
+            dinámica y eficiente.
+          </p>
+          <button id="openModal"><a href="../formulario.html">¡Apúntame!</button></a>
+         
+        </div>
+      </div>
+      <div class="carousel-slide">
+        <img src="./imagenes-carrusel/cibers.webp" alt="Imagen 2" />
+        <div class="carousel-content">
+          <h2>FullStack - CiberSeguridad</h2>
+          <div class="linea"></div>
+          <p>
+            Sumérgete en el fascinante mundo del desarrollo web Full Stack con
+            un enfoque especial en la ciberseguridad. Aprenderás a construir
+            aplicaciones web completas y seguras, mientras adquieres habilidades
+            para proteger y fortalecer la seguridad de tus proyectos en línea.
+            Desde la implementación de protocolos de seguridad hasta el manejo
+            de vulnerabilidades, este curso te equipará con las herramientas
+            necesarias para ser un desarrollador web Full Stack con un enfoque
+            experto en ciberseguridad.
+          </p>
+          <button><a href="../formulario.html">¡Apúntame!</button></a>
+          
+        </div>
+      </div>
+      <div class="carousel-slide">
+        <img src="./imagenes-carrusel/imagen1.jpg" alt="Imagen 3" />
+        <div class="carousel-content">
+          <h2>FullStack - Inmersivas</h2>
+          <div class="linea"></div>
+          <p>
+            Explora el emocionante mundo del desarrollo web Full Stack
+            integrando tecnologías inmersivas. Este curso te sumergirá en las
+            últimas tendencias del desarrollo web, permitiéndote crear
+            experiencias interactivas y envolventes. Aprenderás a combinar
+            tecnologías avanzadas como realidad aumentada (AR), realidad virtual
+            (VR) o tecnologías 3D con las bases de desarrollo web Full Stack.
+           
+          </p>
+          <button><a href="../formulario.html">¡Apúntame!</button></a>
+          
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <!-- Tu archivo JavaScript personalizado -->
+    <script src="./carrusel.js"></script>
+  </body>
+</html>

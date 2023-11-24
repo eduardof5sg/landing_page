@@ -1,0 +1,207 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
+
+* {
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.body1 {
+    background-image: url(./fondo2.webp);
+    background-position: center;
+    background-size: cover;
+    font-family:'Montserrat', sans-serif ;
+}
+
+
+
+body.dark {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./fondo2.webp);
+  
+
+}
+
+body.dark h2, body.dark p {
+  color: #fff;
+}
+
+
+.logo img {
+  width: 130px;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  }
+
+.navlinks {
+  display: flex;
+  align-items: end;
+}
+
+.navlinks ul {
+  display: flex;
+
+}
+.navbar a {
+  color:#fff;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: orangered;
+}
+
+/* Estilo del boton Modo Oscuro */
+
+.switch {
+  background: #343d5b;
+  border-radius: 100px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  outline: none;
+  margin-left: 2em;
+  margin-top: 2em;
+  margin-right: 3em;
+}
+
+.switch::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background: #f1f1f1;
+  top: 0;
+  left: 0;
+  right: unset;
+  border-radius: 100px;
+  transition: .3s ease all;
+  box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.2);
+}
+
+.switch.active {
+  background: rgb(250, 115, 4);
+  color: #000;
+}
+
+.switch.active::after {
+  right: 0;
+  left: unset;
+} 
+
+.fa-sun {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    background: none;
+    color: #fff;
+  }
+  .fa-moon{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    background: none;
+    color: #fff;
+  }
+
+/* Fin Modo oscuro */
+
+.carousel-container {
+    width: 70%;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    margin-top: 10px;
+    
+        
+  }
+  
+  .carousel-slide {
+    display: inline-block;
+    text-align: center;
+    transition: opacity 0.3s ease; /
+    
+  }
+
+  
+  .carousel-slide img {
+    width: 70%; 
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 90px;    
+  }
+  
+   
+  .carousel-content h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+  }
+  
+  
+  .carousel-content p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    width: 600px;
+  }
+  
+  .carousel-content button {
+    padding: 10px 20px;
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-family:'Montserrat', sans-serif ;
+  }
+
+ 
+  .carousel-content button:hover {
+    background-color: #10338bea;
+  }
+  
+  .rating {
+    font-size: 24px;
+  }
+  
+  .star {
+    color: gold;
+  }
+  
+  .linea {
+    height: 5px;
+   background-color: orangered;
+   margin-bottom: 10px;
+   width: 600px;
+  
+  }
+
+  h2,p {
+    color: #10338bea;
+  }
+
+  a {
+    font-weight: bold;
+  }
+
+  a:visited {
+    color: #fff;
+    
+  }
+
